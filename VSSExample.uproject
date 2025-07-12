@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "VSSExample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -13,7 +20,7 @@
 		},
 		{
 			"Name": "V_Stats",
-			"Enabled": true,
+			"Enabled": true
 		}
 	]
 }
